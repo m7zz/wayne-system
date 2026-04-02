@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: #e5e5e5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #facc15;
+  letter-spacing: 2px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #111;
+  color: white;
+}
+
+input:focus {
+  border-color: #facc15;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #facc15;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #eab308;
+  transform: scale(1.05);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.acoes{
+    display: flex;
+    gap: 5px;
+}
+
+li {
+  background: #111;
+  border: 1px solid #222;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 8px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  margin-left: 5px;
+}
+
+li button:first-of-type {
+  background: #dc2626;
+  color: white;
+}
+
+li button:first-of-type:hover {
+  background: #b91c1c;
+}
+
+li button:last-of-type {
+  background: #2563eb;
+  color: white;
+}
+
+li button:last-of-type:hover {
+  background: #1d4ed8;
+}
+
+.btn-voltar {
+  background: transparent;
+  color: #facc15;
+  border: 1px solid #facc15;
+  margin-bottom: 15px;
+}
+
+.btn-voltar:hover {
+  background: #facc15;
+  color: black;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer a {
+  color: #facc15;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/dashboard.css" />
+    <script src="../assets/js/auth.js"></script>
+    <script>
+      verificarAcesso(["admin", "gerente", "funcionario"]); 
+    </script>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <h1>Dashboard</h1>
+    <button class="btn-logout" onclick="logout()">Sair</button>
+
+    <div class="card">
+      <h2>Total de Recursos</h2>
+      <ul id="listaRecursos"></ul>
+      <p id="total">0</p>
+    </div>
+
+    <button onclick="irRecursos()" class="btn">Gerenciar Recursos</button>
+    <footer>
+      feito por
+      <a href="https://github.com/m7zz" target="_blank">m7zz</a>
+    </footer>
+    <script src="../assets/js/dashboard.js"></script>
+  </body>
+</html>

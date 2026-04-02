@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/recursos.css" />
+    <script src="../assets/js/auth.js"></script>
+    <script>
+      verificarAcesso(["admin"]);
+    </script>
+    <title>Recursos</title>
+  </head>
+  <body>
+    <h1>
+      <a href="dashboard.html" style="text-decoration: none; color: inherit">
+        Recursos
+      </a>
+    </h1>
+
+    <button class="btn-voltar" onclick="voltar()">Voltar</button>
+
+    <div class="form">
+      <input type="text" id="nome" placeholder="Nome" />
+      <input type="text" id="tipo" placeholder="Tipo" />
+
+      <button onclick="adicionar()">Adicionar</button>
+    </div>
+    <ul id="lista"></ul>
+    <footer>
+      feito por
+      <a href="https://github.com/m7zz" target="_blank">m7zz</a>
+    </footer>
+    <script src="../assets/js/recursos.js"></script>
+  </body>
+</html>

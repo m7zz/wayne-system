@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: #e5e5e5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #facc15;
+  letter-spacing: 2px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  flex: 1;
+  background: #111;
+  border: 1px solid #222;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(250, 204, 21, 0.05);
+}
+
+.card h2 {
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #facc15;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #eab308;
+  transform: scale(1.05);
+}
+
+#listaRecursos {
+  margin-top: 20px;
+  padding: 0;
+}
+
+#listaRecursos li {
+  background: #111;
+  border: 1px solid #222;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.btn-logout {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  color: #facc15;
+  border: 1px solid #facc15;
+  padding: 8px 12px;
+}
+
+.btn-logout:hover {
+  background: #facc15;
+  color: black;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer a {
+  color: #facc15;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
